@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { usePathname } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Main Page",

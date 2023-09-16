@@ -15,6 +15,7 @@ export default function Home() {
       <Stack component="nav">
         <Link href="/dashboard">Dashboard</Link>
         <Link href="/request-cache">Request</Link>
+        <Link href="/error-demo">Error Demo</Link>
       </Stack>
     </main>
   );

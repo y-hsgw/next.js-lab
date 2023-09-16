@@ -1,3 +1,4 @@
+import { CssBaseline } from "@mui/material";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -14,7 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="ja">
+      <CssBaseline />
       <body className={inter.className}>{children}</body>
     </html>
   );

@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@mui/material";
-import { memo, useCallback, useEffect, useState } from "react";
+import { memo, useCallback, useState } from "react";
 import { ThrowError } from "./throw-error";
 
 export const ErrorButton: React.FC = memo(() => {

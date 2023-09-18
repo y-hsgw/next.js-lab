@@ -16,6 +16,7 @@ export default function Home() {
         <Link href="/dashboard">Dashboard</Link>
         <Link href="/request-cache">Request</Link>
         <Link href="/error-demo">Error Demo</Link>
+        <Link href="/cookie-demo">Cookie Demo</Link>
       </Stack>
     </main>
   );

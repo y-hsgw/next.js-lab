@@ -17,6 +17,7 @@ export default function Home() {
         <Link href="/request-cache">Request</Link>
         <Link href="/error-demo">Error Demo</Link>
         <Link href="/cookie-demo">Cookie Demo</Link>
+        <Link href="/urql-demo">Urql Demo</Link>
       </Stack>
     </main>
   );

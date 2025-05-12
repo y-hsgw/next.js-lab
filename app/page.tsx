@@ -13,7 +13,9 @@ export default function Home() {
         Main Page
       </Typography>
       <Stack component="nav">
-        <Link href="/dashboard">Dashboard</Link>
+        <Link href="https://next-js-lab-six.vercel.app/dashboard">
+          Dashboard
+        </Link>
         <Link href="/request-cache">Request</Link>
         <Link href="/error-demo">Error Demo</Link>
         <Link href="/cookie-demo">Cookie Demo</Link>
